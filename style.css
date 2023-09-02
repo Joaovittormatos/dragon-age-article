@@ -95,6 +95,7 @@ img#metacritic {
 table {
   margin-top: 20px;
   border-collapse: collapse;
+  min-width: 320px;
 }
 
 td {
@@ -115,4 +116,12 @@ th {
 h3 {
   font-size: 1.7em;
   text-align: center;
+}
+
+div#tb1 {
+  overflow-x: auto;
+}
+
+div#tb2 {
+  overflow-x: auto;
 }
